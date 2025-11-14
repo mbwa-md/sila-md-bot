@@ -22,7 +22,7 @@ module.exports = {
 
             const caption = `
 ┏━━━━━━━━━━━━━━━┓
-      ✦ *Silva MD Runtime* ✦
+       *Sila MD Runtime* 
 ┗━━━━━━━━━━━━━━━┛
 
 🕒 *Uptime:* ${uptime}
@@ -31,11 +31,11 @@ module.exports = {
 🏗 *Platform:* ${platform}
 🛠 *RAM:* ${freeMem} GB / ${totalMem} GB
 
-✨ _Powered by Silva Tech Inc_
+✨ _Powered by Sila Tech
 `.trim();
 
             await sock.sendMessage(sender, {
-                image: { url: 'https://files.catbox.moe/5uli5p.jpeg' }, // ✅ Fixed image
+                image: { url: 'https://files.catbox.moe/dlvrav.jpg' }, // ✅ Fixed image
                 caption,
                 contextInfo
             }, { quoted: m });

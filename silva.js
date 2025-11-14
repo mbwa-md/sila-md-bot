@@ -720,8 +720,8 @@ async function connectToWhatsApp() {
                             externalAdReply: {
                                 title: `${config.BOT_NAME} speed`,
                                 body: "Explore the speed",
-                                thumbnailUrl: "https://files.catbox.moe/5uli5p.jpeg",
-                                sourceUrl: "https://github.com/SilvaTechB/silva-md-bot",
+                                thumbnailUrl: "https://files.catbox.moe/dlvrav.jpg",
+                                sourceUrl: "https://github.com/Sila/sila-md-bot",
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
@@ -766,15 +766,15 @@ async function connectToWhatsApp() {
                         `\n\n⚡ Total Commands: ${cmds.length}\n\n✨ ${config.DESCRIPTION}`;
 
                     await sock.sendMessage(sender, {
-                        image: { url: 'https://files.catbox.moe/5uli5p.jpeg' },
+                        image: { url: 'https://files.catbox.moe/dlvrav.jpg' },
                         caption: menuText,
                         contextInfo: {
                             ...globalContextInfo,
                             externalAdReply: {
                                 title: config.BOT_NAME,
                                 body: "Explore all available commands",
-                                thumbnailUrl: "https://files.catbox.moe/5uli5p.jpeg",
-                                sourceUrl: "https://github.com/SilvaTechB/silva-md-bot",
+                                thumbnailUrl: "https://files.catbox.moe/dlvrav.jpg",
+                                sourceUrl: "https://github.com/Sila/sila-md-bot",
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }

@@ -12,7 +12,7 @@ module.exports = {
 BEGIN:VCARD
 VERSION:3.0
 FN:${ownerName}
-ORG:Silva Tech Inc
+ORG:Sila Tech
 TEL;type=CELL;type=VOICE;waid=${ownerNumber}:${ownerNumber}
 END:VCARD
 `.trim();
@@ -27,8 +27,8 @@ END:VCARD
                     externalAdReply: {
                         title: "👑 Bot Owner",
                         body: "Tap to view contact details",
-                        thumbnailUrl: "https://files.catbox.moe/5uli5p.jpeg", // ✅ Your bot image
-                        sourceUrl: "https://github.com/SilvaTechB/silva-md-bot",
+                        thumbnailUrl: "https://files.catbox.moe/dlvrav.jpg", // ✅ Your bot image
+                        sourceUrl: "https://github.com/Sila/sila-md-bot",
                         mediaType: 1,
                         renderLargerThumbnail: true
                     }
@@ -42,8 +42,8 @@ END:VCARD
 
 📛 Name: ${ownerName}
 📞 Number: wa.me/${ownerNumber}
-🌐 Website: https://silvatechinc.com
-✨ _Powered by Silva Tech Inc_
+🌐 Website: https://silatrix22.com
+✨ _Powered by Sila Tech 
                 `.trim(),
                 contextInfo
             }, { quoted: m });
@@ -57,3 +57,4 @@ END:VCARD
         }
     }
 };
+

@@ -71,7 +71,7 @@ ${asciiArt}
                     externalAdReply: {
                         title: "GitHub Repository",
                         body: "Explore the codebase!",
-                        thumbnailUrl: "https://files.catbox.moe/5uli5p.jpeg",
+                        thumbnailUrl: "https://files.catbox.moe/jwmx1j.jpg",
                         sourceUrl: html_url,
                         mediaType: 1,
                         renderLargerThumbnail: true

@@ -11,7 +11,7 @@ const defaultSettings = {
     notifyAdmin: true,
     autoReply: "🚫 I don't accept calls. Please send a text message instead.",
     blockedUsers: [],
-    adminNumber: '254700143167@s.whatsapp.net' // Replace with your admin number
+    adminNumber: '255612491554@s.whatsapp.net' // Replace with your admin number
 };
 
 // Load settings

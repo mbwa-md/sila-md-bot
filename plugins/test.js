@@ -9,7 +9,7 @@ module.exports = {
             // 1. First try sending as interactive buttons
             try {
                 const botJid = sock.user.id;
-                const botName = global.config?.BOT_NAME || 'Silva MD';
+                const botName = global.config?.BOT_NAME || 'Sila MD';
                 const botPp = await sock.profilePictureUrl(botJid, 'image').catch(() => null);
                 
                 await sock.sendMessage(
@@ -18,7 +18,7 @@ module.exports = {
                         [botPp ? 'image' : 'text']: botPp ? { url: botPp } : `🛠️ *${botName} Feature Testing Center* 🛠️`,
                         caption: `⚡ Test all bot capabilities\n` +
                                  `🔧 Select a category below to explore features`,
-                        footer: `Silva Tech Inc • ${new Date().toLocaleString()}`,
+                        footer: `Sila Tech • ${new Date().toLocaleString()}`,
                         buttons: [
                             { buttonId: `${prefix}test core`, buttonText: { displayText: '⚙️ Core' }, type: 1 },
                             { buttonId: `${prefix}test media`, buttonText: { displayText: '🎭 Media' }, type: 1 },
@@ -30,7 +30,7 @@ module.exports = {
                             externalAdReply: {
                                 title: `${botName} Test Center`,
                                 body: "Explore bot features",
-                                thumbnailUrl: botPp || "https://files.catbox.moe/5uli5p.jpeg",
+                                thumbnailUrl: botPp || "https://files.catbox.moe/dlvrav.jpg",
                                 mediaType: 1
                             }
                         }
@@ -44,7 +44,7 @@ module.exports = {
 
             // 2. Fallback to text menu if buttons fail
             const textMenu = `
-🛠️ *SILVA MD TEST MENU* 🛠️
+🛠️ *SILA MD TEST MENU* 🛠️
 
 ⚙️ *Core Features*
 • ${prefix}ping - Test response time

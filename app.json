@@ -1,7 +1,7 @@
 {
-  "name": "silva-md",
+  "name": "sila-md",
   "description": "Javascript WhatsApp bot made by Silva.",
-  "keywords": ["silva-md", "whatsapp", "baileys", "bot"],
+  "keywords": ["sila-md", "whatsapp", "baileys", "bot"],
   "success_url": "/",
   "stack": "heroku-24",
   "env": {
@@ -13,12 +13,12 @@
     "ALIVE_IMG": {
       "description": "Paste your image URL here.",
       "required": false,
-      "value": "https://files.catbox.moe/5uli5p.jpeg"
+      "value": "https://files.catbox.moe/dlvrav.jpg"
     },
     "LIVE_MSG": {
       "description": "Paste your alive message here.",
       "required": false,
-      "value": "> SILVA MD IS ACTIVE AND RUNNING ⚡"
+      "value": "> SILA MD IS ACTIVE AND RUNNING ⚡"
     },
     "ANTIDELETE_PRIVATE": {
       "description": "Restore deleted messages in private chat.",
@@ -63,7 +63,7 @@
     "AUTO_STATUS__MSG": {
       "description": "Message for auto status reply.",
       "required": true,
-      "value": "*👀 Seen by Silva MD ✅*"
+      "value": "*👀 Seen by Sila MD ✅*"
     },
     "OWNER_NAME": {
       "description": "Bot owner name.",
@@ -73,12 +73,12 @@
     "OWNER_NUMBER": {
       "description": "Owner WhatsApp number.",
       "required": false,
-      "value": "254700143167"
+      "value": "255612491554"
     },
     "BOT_NAME": {
       "description": "Bot display name.",
       "required": false,
-      "value": "✦ Silva ✦ MD ✦"
+      "value": "✦ Sila ✦ MD ✦"
     },
     "ANTI_LINK": {
       "description": "Enable anti-link feature in groups.",
@@ -93,7 +93,7 @@
     "DESCRIPTION": {
       "description": "Caption for menu and bot branding.",
       "required": false,
-      "value": "*© ✦ Silva ✦ MD ✦*"
+      "value": "*© ✦ Sila MD ✦*"
     },
     "DELETE_LINKS": {
       "description": "Remove links from group without removing member.",
@@ -142,3 +142,4 @@
     }
   ]
 }
+

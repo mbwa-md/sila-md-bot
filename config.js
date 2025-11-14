@@ -8,15 +8,15 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
     SESSION_ID: process.env.SESSION_ID || "",
     PREFIX: process.env.PREFIX || ".",
-    BOT_NAME: process.env.BOT_NAME || "✦ Sila ✦ MD ✦",
+    BOT_NAME: process.env.BOT_NAME || "Sila Md",
     AUTO_STATUS_REACT: convertToBool(process.env.AUTO_STATUS_REACT, "true"),
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🔥,❤️‍🩹,❤️,🩷,🧡,💛,💚,💙,🩵,💜,🤎,🖤,🩶,🤍",
     DELETE_LINKS: convertToBool(process.env.DELETE_LINKS, "false"),
     OWNER_NUMBER: process.env.OWNER_NUMBER || "255612491554",
-    OWNER_NAME: process.env.OWNER_NAME || "✦ Sila ✦ MD ✦",
-    DESCRIPTION: process.env.DESCRIPTION || "*© ✦ Sila ✦ MD ✦*",
+    OWNER_NAME: process.env.OWNER_NAME || "Sila Md",
+    DESCRIPTION: process.env.DESCRIPTION || "*© Sila ✦ Md*",
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/dlvrav.jpg",
-    LIVE_MSG: process.env.LIVE_MSG || "> SILVA MD IS ACTIVE ⚡",
+    LIVE_MSG: process.env.LIVE_MSG || "> SILA MD IS ACTIVE ⚡",
     READ_MESSAGE: convertToBool(process.env.READ_MESSAGE, "false"),
     AUTO_REACT_NEWSLETTER: convertToBool(process.env.AUTO_REACT_NEWSLETTER, "true"), // Newsletter auto-react
     ANTI_BAD: convertToBool(process.env.ANTI_BAD, "false"),
@@ -35,5 +35,6 @@ module.exports = {
     // Debug Settings
     DEBUG: convertToBool(process.env.DEBUG, "true")
 };
+
 
 

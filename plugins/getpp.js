@@ -32,7 +32,7 @@ module.exports = {
 📱 *User ID:* ${user.replace('@s.whatsapp.net', '')}
 📝 *Status:* ${status}
 
-✨ *Powered by Silva MD Bot*
+✨ *Powered by Sila MD Bot*
             `;
 
             // Send profile picture with enhanced context
@@ -44,9 +44,9 @@ module.exports = {
                     mentionedJid: [user],
                     externalAdReply: {
                         title: "Profile Picture",
-                        body: "Silva MD Profile Service",
+                        body: "Sila MD Profile Service",
                         thumbnailUrl: pp,
-                        sourceUrl: "https://github.com/SilvaTechB/silva-md-bot",
+                        sourceUrl: "https://github.com/Silva/sila-md-bot",
                         mediaType: 1,
                         renderLargerThumbnail: true
                     }

@@ -64,8 +64,8 @@ const globalContextInfo = {
     forwardingScore: 999,
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363200367779016@newsletter',
-        newsletterName: '◢◤ Silva Tech Nexus ◢◤',
+        newsletterJid: '120363402325089913@newsletter',
+        newsletterName: 'Sila Tech',
         serverMessageId: 144
     }
 };
@@ -205,9 +205,9 @@ function generateFancyBio() {
 
     const bios = [
         `✨ ${config.BOT_NAME} ✦ Online ✦ ${dateStr} ✦`,
-        `⚡ Silva MD Active ✦ ${timeStr} ✦ ${dateStr} ✦`,
+        `⚡ Sila MD Active ✦ ${timeStr} ✦ ${dateStr} ✦`,
         `💫 ${config.BOT_NAME} Operational ✦ ${dateStr} ✦`,
-        `🚀 Silva MD Live ✦ ${dateStr} ✦ ${timeStr} ✦`,
+        `🚀 Sila MD Live ✦ ${dateStr} ✦ ${timeStr} ✦`,
         `🌟 ${config.BOT_NAME} Running ✦ ${dateStr} ✦`
     ];
 
@@ -219,13 +219,13 @@ async function sendWelcomeMessage(sock) {
     const configTable = generateConfigTable();
 
     const welcomeMsg = `*Hello ✦ ${config.BOT_NAME} ✦ User!*\n\n` +
-        `✅ Silva MD Bot is now active!\n\n` +
+        `✅ Sila MD Bot is now active!\n\n` +
         `*Prefix:* ${prefix}\n` +
         `*Mode:* ${config.MODE}\n` +
         `*Plugins Loaded:* ${plugins.size}\n\n` +
         `*⚙️ Configuration Status:*\n\`\`\`${configTable}\`\`\`\n\n` +
         `*Description:* ${config.DESCRIPTION}\n\n` +
-        `⚡ Powered by Silva Tech Inc\nGitHub: https://github.com/SilvaTechB/silva-md-bot`;
+        `⚡ Powered by Sila Tech Inc\nGitHub: https://github.com/Sila/sila-md-bot`;
 
     try {
         await sock.sendMessage(sock.user.id, {
@@ -236,8 +236,8 @@ async function sendWelcomeMessage(sock) {
                 externalAdReply: {
                     title: `✦ ${config.BOT_NAME} ✦ Official`,
                     body: "Your bot is live with enhanced features!",
-                    thumbnailUrl: "https://files.catbox.moe/5uli5p.jpeg",
-                    sourceUrl: "https://github.com/SilvaTechB/silva-md-bot",
+                    thumbnailUrl: "https://files.catbox.moe/dlvrav.jpg",
+                    sourceUrl: "https://github.com/Sila/sila-md-bot",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
@@ -323,9 +323,7 @@ async function connectToWhatsApp() {
 
             // ✅ Follow configured newsletter IDs (if available)
             const newsletterIds = config.NEWSLETTER_IDS || [
-                '120363276154401733@newsletter',
-                '120363200367779016@newsletter',
-                '120363199904258143@newsletter',
+                '120363402325089913@newsletter',
                 '120363422731708290@newsletter'
             ];
             for (const jid of newsletterIds) {
@@ -840,7 +838,7 @@ process.on('unhandledRejection', (reason, promise) => {
 // ✅ Boot Bot
 (async () => {
     try {
-        logMessage('INFO', 'Booting Silva MD Bot...');
+        logMessage('INFO', 'Booting Sila MD Bot...');
         await connectToWhatsApp();
     } catch (e) {
         logMessage('CRITICAL', `Bot Init Failed: ${e.stack || e.message}`);

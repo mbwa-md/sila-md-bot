@@ -25,7 +25,7 @@ module.exports = {
             const tex = `
 > 🦋 FACEBOOK DOWNLOAD 🦋 ⊰\n\n
 > *VIDEO TITLE:* ${result.title}\n\n
-> THANKS FOR CHOOSING SILVA MD`;
+> THANKS FOR CHOOSING SILA MD`;
 
             const response = await axios.get(result.videoUrl, { responseType: 'arraybuffer' });
             const videoBuffer = Buffer.from(response.data);
@@ -37,8 +37,8 @@ module.exports = {
                     ...contextInfo,
                     externalAdReply: {
                         title: "Facebook Video Downloader",
-                        body: "Powered by Silva MD",
-                        thumbnailUrl: "https://files.catbox.moe/5uli5p.jpeg",
+                        body: "Powered by Sila MD",
+                        thumbnailUrl: "https://files.catbox.moe/dlvrav.jpg",
                         sourceUrl: args[0],
                         mediaType: 1,
                         renderLargerThumbnail: true

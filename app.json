@@ -63,12 +63,12 @@
     "AUTO_STATUS__MSG": {
       "description": "Message for auto status reply.",
       "required": true,
-      "value": "*👀 Seen by Sila MD ✅*"
+      "value": "*👀 Seen by Sila Md ✅*"
     },
     "OWNER_NAME": {
       "description": "Bot owner name.",
       "required": false,
-      "value": "Silva MD"
+      "value": "SILA"
     },
     "OWNER_NUMBER": {
       "description": "Owner WhatsApp number.",
@@ -78,7 +78,7 @@
     "BOT_NAME": {
       "description": "Bot display name.",
       "required": false,
-      "value": "✦ Sila ✦ MD ✦"
+      "value": "Sila Md"
     },
     "ANTI_LINK": {
       "description": "Enable anti-link feature in groups.",
@@ -93,7 +93,7 @@
     "DESCRIPTION": {
       "description": "Caption for menu and bot branding.",
       "required": false,
-      "value": "*© ✦ Sila MD ✦*"
+      "value": "*© SILA MD*"
     },
     "DELETE_LINKS": {
       "description": "Remove links from group without removing member.",
@@ -142,4 +142,5 @@
     }
   ]
 }
+
 

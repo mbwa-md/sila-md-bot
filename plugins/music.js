@@ -36,6 +36,7 @@ module.exports = {
             const video = search.videos[0];
             const link = video.url;
             const apis = [
+                `https://api.nekolabs.my.id/downloader/youtube/play/v1?q=${encodeURIComponent(text)}`,
                 `https://apis.davidcyriltech.my.id/download/ytmp3?url=${link}`,
                 `https://api.ryzendesu.vip/api/downloader/ytmp3?url=${link}`,
                 `https://api.akuari.my.id/downloader/youtubeaudio?link=${link}`
@@ -75,13 +76,13 @@ module.exports = {
             // Send metadata & thumbnail
             await sock.sendMessage(sender, {
                 image: { url: songData.thumbnail },
-                caption: `SYLIVANUS THE SILVA MD BOT
+                caption: ` SILA MD BOT
 ╭═════════════════⊷
 ║ 🎶 *Title:* ${songData.title}
 ║ 🎤 *Artist:* ${songData.artist}
 ║ 🔗 THANK YOU SORRY NO URL TO BE SHARED
 ╰═════════════════⊷
-*Powered by SILVA MD BOT*`,
+*Powered by SILA MD BOT*`,
                 contextInfo: contextInfo
             }, { quoted: m });
 

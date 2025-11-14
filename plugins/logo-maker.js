@@ -1,11 +1,6 @@
-//---------------------------------------------
-//           CRISS-AI  
-//---------------------------------------------
-//  ⚠️ DO NOT MODIFY THIS FILE ⚠️  
-//---------------------------------------------
 const { cmd, commands } = require('../command');
 const axios = require('axios');
-const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson } = require('../lib/functions2');
+const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, sleep, fetchJson } = require('../lib/functions');
 
 cmd({
     pattern: "3dcomic",
